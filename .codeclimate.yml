@@ -1,0 +1,14 @@
+---
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+        javascript: 
+          filters: []
+ratings:
+  paths:
+  - "**.js"
+  - "**.jsx"
+exclude_paths:
+- node_modules/**/*
