@@ -5,7 +5,8 @@ engines:
     config:
       languages:
         javascript: 
-          filters: []
+          filters:
+            - "(CallExpression callee (Identifier invariant) ___)"
 ratings:
   paths:
   - "**.js"
